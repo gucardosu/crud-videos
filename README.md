@@ -27,3 +27,11 @@ Clone o repositório:
 
 ```bash
 git clone https://github.com/seu-usuario/crud-videos.git
+
+| Método | Rota        | Descrição                   |
+| ------ | ----------- | --------------------------- |
+| GET    | /videos     | Lista todos os vídeos       |
+| GET    | /videos/:id | Retorna um vídeo específico |
+| POST   | /videos     | Cria um novo vídeo          |
+| PUT    | /videos/:id | Atualiza um vídeo existente |
+| DELETE | /videos/:id | Remove um vídeo             |
